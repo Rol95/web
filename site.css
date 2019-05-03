@@ -16,10 +16,8 @@
     font-family: 'work sans';
     display: flex;
     flex-direction: column; 
+    
   }
-  table {
-  border-collapse:collapse;
-}
   
    .pirosvonal {
      border: 1px solid red;
@@ -78,3 +76,4 @@
       .gomb:hover {
         background-color: rgb(192, 192, 192);  
             }
+	
