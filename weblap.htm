@@ -1,0 +1,101 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<title>Lenyűgöző</title>
+<style>
+
+@import url('https://fonts.googleapis.com/css?family=Work+Sans:200&subset=latin-ext');
+
+  html, body {
+    height: 100%;
+    margin: 0;
+    overflow: hidden;
+  }
+  body {
+    background-image: url("hatter2.jpg"); 
+    background-repeat: no-repeat; 
+    background-position: center;
+    background-size: cover;
+    color: white; 
+    font-size: 40px;
+    font-family: 'work sans';
+    display: flex;
+    flex-direction: column; 
+    
+  }
+   .pirosvonal {
+     border: 1px solid red;
+  } 
+   .kozepe {
+     flex-grow: 1; 
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     text-align: center; 
+     flex-direction: column; 
+  }
+   .fejlec {
+     display: flex;
+     justify-content: center;
+     text-align: center;
+     font-size: 16px;
+     font-family: arial; 
+  }
+   .lablec {
+     display: flex;
+     justify-content: center;
+     text-align: center;
+     font-size: 16px;
+     font-family: arial; 
+  } 
+    video {
+     position: absolute;
+     top: 50%;
+     left: 50%; 
+     transform: translate(-50%, -50%);
+     min-width: 100%;
+     min-height: 100%;
+     z-index: -100;
+  }
+  a {
+     color: white;
+     text-decoration: none;
+    }
+     .menupont{
+     margin-left: 20px ;
+     margin-right: 20px ;
+    }
+     .gomb {
+        font-size: 16px;
+        font-family: arial;
+        background-color: rgba(128, 128, 128, 0.25);
+        padding: 10px 30px;
+        width: 80px;
+        display: inline-block;
+           }
+      .gomb:hover {
+        background-color: rgb(192, 192, 192);  
+            }
+</style>
+</head>
+<body>
+<video autoplay loop muted poster="hatter.mov" src="hatter.mov"></video>
+
+<nav class="fejlec">
+   <a class="menupont" href="https://www.facebook.com/ShadeApocalypt">Magamról!</a>
+   <a class="menupont" href="https://www.twitch.tv/">Nézd ahogy játszom!</a>
+   <a class="menupont" href="https://otpbank.hu/portal/hu/OTPdirekt/Belepes">Küldj pénzt!</a>
+</nav>
+
+<div class="kozepe">NekroStream
+  <div>
+     <a class="gomb" href="https://www.twitch.tv/">Csatornám</a>
+     <a class="gomb" href="https://www.youtube.com/user/HtSTeebee">Zenéim</a>
+     <a class="gomb" href="https://www.otpbank.hu/portal/hu/OTPdirekt/Belepes">Fizetés!</a>
+  </div>
+</div>
+
+<footer class="lablec">Lábléc</footer>
+
+</body>
+</html>
