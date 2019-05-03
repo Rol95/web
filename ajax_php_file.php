@@ -19,9 +19,9 @@ echo $_FILES["file"]["name"] . " <span id='invalid'><b>Ilyen nevű fájl már l�
 else
 {
 $sourcePath = $_FILES['file']['tmp_name']; 
-$targetPath = "images/".$_FILES['file']['name']; 
-move_uploaded_file($sourcePath,$targetPath) ;
-echo "<span id='success'>Feltöltés sikeres!</span><br/>";
+$targetPath = "images/".$_FILES['file']['name'];
+move_uploaded_file($sourcePath,$targetPath) ; 
+echo "<span id='success'>Sikeres beküldés! <br> Moderátorunk hamarosan ellenőrzi és látható lesz az oldalon.</span><br/>";
 }
 }
 }

@@ -1,0 +1,22 @@
+div {
+	width: 1000px;
+	}
+label {
+	line-height: 50px;
+
+	}
+label input, label textarea {
+	float: right;
+	border: 2px red solid;
+	padding: 2px;
+	}
+textarea {
+	width: 500px;
+	}
+input[type="submit"] {
+	float: right;
+	clear: both;
+	}
+button {
+	float: right;
+	}

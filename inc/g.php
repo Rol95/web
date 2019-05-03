@@ -2,7 +2,7 @@
 <link rel="stylesheet" href="site.css" />
 
 <div>
-     <a class="gomb" href="index.php?op=ajax_upload_image_main">Képfeltöltés</a>
+     <a class="gomb" href="index.php?op=ajax_upload_image_main">Küldj be képet!</a>
 </div>
 <br>
 <div id="container">

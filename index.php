@@ -1,14 +1,22 @@
-﻿<!DOCTYPE html>
+﻿<?php
+include("auth.php");
+?>
+<!DOCTYPE html>
 <html>
 	<head>
 		<title>Szent Márton</title>
 		<link rel="stylesheet" href="site.css" />
 	</head>
+	<header>
+	</header>
 	
 <body>
-
+   
 <nav class="fejlec">
-   <a class="menupont" href="regi.html">A régi weboldal még elérhető itt!</a>
+<div class="form">
+<h5>Üdv <?php echo $_SESSION['username']; ?>!</h5>
+<a href="logout.php">Kijelentkezés</a>
+   
    </nav>
    <br>
 <nav class="fejlec">
@@ -17,7 +25,10 @@
      <a class="gomb" href="index.php?op=g">Galéria</a>
      <a class="gomb" href="index.php?op=v">Videóink</a>
 	 <a class="gomb" href="index.php?op=k">Kapcsolat</a>
-	 <a class="gomb" href="index.php?op=ü">Üzenetek</a>	 
+	<a class="gomb" href="tamogat.html">Támogatok!</a>	 
+	 </br>
+	 <hr>
+	<a class="gomb" href="regi.html">Régi weboldal elérhető itt!</a>
   </div>
 
 </nav>
